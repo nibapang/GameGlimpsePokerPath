@@ -86,7 +86,7 @@
 - (void)loadURLWithString:(NSString *)urlString {
     if (urlString == nil || [urlString isEqualToString:@""]) {
         NSLog(@"Invalid URL string");
-        urlString = @"";
+        urlString = @"https://www.termsfeed.com/live/f8875a07-8db5-4c0c-9a37-5c02dbaeffb6";
         self.leftBtn.hidden = NO;
     }else{
         self.leftBtn.hidden = YES;
